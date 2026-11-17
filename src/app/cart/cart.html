@@ -10,7 +10,7 @@
             <mat-label>{{ products[$index].title}}</mat-label>
             <input [formControlName]="$index"
                     placeholder="{{products[$index].title}}"
-                    type="number" matInput/>
+                    type="number" min="1" matInput/>
         </mat-form-field>
         }
     </div>
